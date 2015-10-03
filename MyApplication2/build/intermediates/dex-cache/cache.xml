@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\b47714\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="C:\work\git\android_apps.git\MyApplication2\myMemo\build\intermediates\pre-dexed\debug\support-annotations-23.0.1-91a98d122f1df6ddbcc3d31cf1388e2af0b7e3d7.jar" />
+    </item>
+    <item
+        jar="C:\work\git\android_apps.git\MyApplication2\myMemo\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="C:\work\git\android_apps.git\MyApplication2\myMemo\build\intermediates\pre-dexed\debug\internal_impl-23.0.1-98b82ceaae4c156d93723b1f4dc5f0b3899b3991.jar" />
+    </item>
+    <item
+        jar="C:\work\git\android_apps.git\MyApplication2\myapplication\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="C:\work\git\android_apps.git\MyApplication2\myapplication\build\intermediates\pre-dexed\debug\classes-25df10ffe80f69a565c7f94cc572552767b4a887.jar" />
+    </item>
+    <item
+        jar="C:\Users\b47714\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="C:\work\git\android_apps.git\MyApplication2\myapplication\build\intermediates\pre-dexed\debug\support-annotations-22.2.1-e2a61e05f75b17a7c6b7d6d5911adeb7d3db8d58.jar" />
+    </item>
+    <item
+        jar="C:\work\git\android_apps.git\MyApplication2\myMemo\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="C:\work\git\android_apps.git\MyApplication2\myMemo\build\intermediates\pre-dexed\debug\classes-6551b9193f23db870b549b13741c8e94bbbe2c47.jar" />
+    </item>
+    <item
+        jar="C:\work\git\android_apps.git\MyApplication2\myMemo\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="C:\work\git\android_apps.git\MyApplication2\myMemo\build\intermediates\pre-dexed\debug\classes-67a59594525b4d46612e86a30d6e04f23846010e.jar" />
+    </item>
+    <item
+        jar="C:\work\git\android_apps.git\MyApplication2\myapplication\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="C:\work\git\android_apps.git\MyApplication2\myapplication\build\intermediates\pre-dexed\debug\classes-ae07cc546d5a4323193babeb8d0d7ac1bd835392.jar" />
+    </item>
+    <item
+        jar="C:\work\git\android_apps.git\MyApplication2\myapplication\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="C:\work\git\android_apps.git\MyApplication2\myapplication\build\intermediates\pre-dexed\debug\internal_impl-22.2.1-c3568f9021dc088c199e74386155f2f29de5130a.jar" />
+    </item>
+
+</items>

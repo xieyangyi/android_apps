@@ -1,0 +1,18 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="taskListActivity_listview_dividerHeight">10dp</dimen>
+    <dimen name="taskListActivity_head_size">20dp</dimen>
+
+    <dimen name="task_list_item_margin">6dp</dimen>
+    <dimen name="task_list_item_content_size">18dp</dimen>
+    <dimen name="task_list_item_date_size">14dp</dimen>
+    <dimen name="task_list_item_time_size">14dp</dimen>
+
+    <dimen name="taskDetailItem_text_size">18dp</dimen>
+    <dimen name="taskDetailItem_margin">6dp</dimen>
+
+    <dimen name="alarm_text_size">20dp</dimen>
+</resources>
