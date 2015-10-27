@@ -1,0 +1,19 @@
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="never">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:title="容易" android:id="@+id/difficulty_easy" android:checked="true"/>
+                <item android:title="困难" android:id="@+id/difficulty_hard"/>
+                <item android:title="疯狂" android:id="@+id/difficulty_crazy"/>
+            </group>
+        </menu>
+    </item>
+</menu>

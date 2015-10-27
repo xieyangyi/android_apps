@@ -1,0 +1,22 @@
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+<item android:title="难度" android:id="@+id/difficulty">
+    <menu>
+        <group android:checkableBehavior="single">
+            <item android:title="容易" android:id="@+id/difficulty_easy" android:checked="true"/>
+            <item android:title="困难" android:id="@+id/difficulty_hard"/>
+            <item android:title="疯狂" android:id="@+id/difficulty_crazy"/>
+        </group>
+    </menu>
+</item>
+<item android:title="音乐" android:id="@+id/music">
+    <menu>
+        <group android:checkableBehavior="single">
+            <item android:title="Romance" android:id="@+id/music_romance" android:checked="true"/>
+        </group>
+    </menu>
+</item>
+</menu>
