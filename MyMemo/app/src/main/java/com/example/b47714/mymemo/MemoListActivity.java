@@ -8,7 +8,6 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.database.Cursor;
 import android.net.Uri;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -85,7 +84,8 @@ public class MemoListActivity extends Activity {
                                 resolver.delete(uri, null, null);
                                 displayMemoList();
                             }
-                        });
+                        })
+                        .show();
 
                 return true;
             }
@@ -120,6 +120,7 @@ public class MemoListActivity extends Activity {
                 new int[]{R.id.txt_memo_item_contet, R.id.txt_memo_item_date, R.id.txt_memo_item_time},
                 0
         );
+
         listViewMemo.setAdapter(adapter);
     }
 
