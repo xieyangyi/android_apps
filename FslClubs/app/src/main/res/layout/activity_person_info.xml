@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!-- top title -->
+        <RelativeLayout
+            android:background="@color/green"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="@string/head_person_info"
+                style="@style/top_text" />
+        </RelativeLayout>
+
+        <!-- content -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:paddingLeft= "@dimen/activity_person_info_padding_left"
+            android:paddingRight="@dimen/activity_bottom_btn_padding_right"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <!-- name -->
+            <RelativeLayout
+                android:id="@+id/layout_activity_info_name"
+                style="@style/activity_person_info_layout">
+                <TextView
+                    android:text="@string/info_name"
+                    style="@style/activity_person_info_text" />
+                <TextView
+                    android:id="@+id/txt_activity_info_name"
+                    style="@style/activity_person_info_text_content" />
+            </RelativeLayout>
+            <!-- sex -->
+            <RelativeLayout
+                style="@style/activity_person_info_layout">
+                <TextView
+                    android:text="@string/info_sex"
+                    style="@style/activity_person_info_text" />
+                <RadioGroup
+                    android:orientation="horizontal"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <RadioButton
+                        android:id="@+id/rbtn_activity_info_male"
+                        android:text="@string/info_male"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <RadioButton
+                        android:id="@+id/rbtn_activity_info_female"
+                        android:text="@string/info_female"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </RadioGroup>
+            </RelativeLayout>
+            <!-- core id -->
+            <RelativeLayout
+                android:id="@+id/layout_activity_info_coreid"
+                style="@style/activity_person_info_layout">
+                <TextView
+                    android:text="@string/info_coreid"
+                    style="@style/activity_person_info_text" />
+                <TextView
+                    android:id="@+id/txt_activity_info_coreid"
+                    style="@style/activity_person_info_text_content" />
+            </RelativeLayout>
+            <!-- email -->
+            <RelativeLayout
+                android:id="@+id/layout_activity_info_email"
+                style="@style/activity_person_info_layout">
+                <TextView
+                    android:text="@string/info_email"
+                    style="@style/activity_person_info_text" />
+                <TextView
+                    android:id="@+id/txt_activity_info_email"
+                    style="@style/activity_person_info_text_content" />
+            </RelativeLayout>
+            <!-- signature -->
+            <RelativeLayout
+                android:id="@+id/layout_activity_info_signature"
+                style="@style/activity_person_info_layout">
+                <TextView
+                    android:text="@string/info_signature"
+                    style="@style/activity_person_info_text" />
+                <TextView
+                    android:id="@+id/txt_activity_info_signature"
+                    android:textSize="@dimen/activity_person_info_text_content_sz"
+                    android:textColor="@color/material_grey_600"
+                    android:singleLine="false"
+                    android:gravity="end"
+                    android:layout_alignParentRight="true"
+                    android:layout_height="wrap_content"
+                    android:layout_width="@dimen/activity_person_info_club_content_width"/>
+            </RelativeLayout>
+            <!-- clubs -->
+            <RelativeLayout
+                style="@style/activity_person_info_layout">
+                <TextView
+                    android:text="@string/info_clubs"
+                    style="@style/activity_person_info_text" />
+                <TextView
+                    android:id="@+id/txt_activity_info_clubs"
+                    android:textSize="@dimen/activity_person_info_text_content_sz"
+                    android:textColor="@color/material_grey_600"
+                    android:singleLine="false"
+                    android:gravity="end"
+                    android:layout_alignParentRight="true"
+                    android:layout_height="wrap_content"
+                    android:layout_width="@dimen/activity_person_info_club_content_width" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- bottom button -->
+    <LinearLayout
+        style="@style/bottom_btn_layout">
+        <Button
+            android:id="@+id/btn_activity_info_save"
+            android:text="@string/info_save"
+            style="@style/bottom_btn"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

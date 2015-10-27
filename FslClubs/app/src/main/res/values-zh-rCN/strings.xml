@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">飞思卡尔俱乐部</string>
+    <string name="action_settings">设置</string>
+
+    <string name="cancel">取消</string>
+    <string name="ok">确定</string>
+
+    <!-- login activity -->
+    <string name="login">登录</string>
+    <string name="username">手机号</string>
+    <string name="password">密码</string>
+    <string name="submmit">提交</string>
+    <string name="Yes">确定</string>
+    <string name="stroll">随便逛逛</string>
+    <string name="phone_not_fill">手机号必须填写</string>
+    <string name="password_not_fill">密码必须填写</string>
+    <string name="network_error">网络连接有误</string>
+    <string name="password_wrong">密码输入有误</string>
+    <string name="phone_not_exist">用户手机号不存在，请先注册</string>
+    <string name="save_user_success">保存成功</string>
+
+    <!-- register activity -->
+    <string name = "register">注册</string>
+    <string name = "query_password">再次密码</string>
+    <string name = "email">电子邮箱</string>
+    <string name="name">真实姓名</string>
+    <string name = "register_btn">注册</string>
+    <string name="password_again_not_fill">第二次密码必须输入</string>
+    <string name="name_not_fill">姓名必须输入</string>
+    <string name="password_not_match">两次密码输入不一致</string>
+    <string name="phone_already_exist">手机号已存在</string>
+    <string name="register_success">注册成功</string>
+    <!-- main activity -->
+    <string name="activities">活动</string>
+    <string name="my_activity">我的活动</string>
+    <string name="clubs">俱乐部</string>
+    <string name="me">我</string>
+
+    <!--clubs fragment & activity -->
+    <string name="head_clubs">俱乐部</string>
+    <string name="basketball">篮球俱乐部</string>
+    <string name="football">足球俱乐部</string>
+    <string name="snooker">台球俱乐部</string>
+    <string name="yoga">瑜伽俱乐部</string>
+    <string name="pingpang">乒乓球俱乐部</string>
+    <string name="tennis">网球俱乐部</string>
+    <string name="riding">骑行俱乐部</string>
+    <string name="badminton">羽毛球俱乐部</string>
+    <string name="basketball_desc">周四 6:00 ~ 8:00 坤如体育中心</string>
+    <string name="football_desc">周三 6:00 ~ 8:00 中医药体育场</string>
+    <string name="snooker_desc">周三 6:00 ~ 8:30 龙阳路潘晓婷台球室</string>
+    <string name="yoga_desc">周一 5:00 ~ 6:00 飞思卡尔七楼</string>
+    <string name="pingpang_desc">周二 6:00 ~ 8:00 飞思卡尔七楼</string>
+    <string name="tennis_desc">周三 6:00 ~ 8：00 德国中心网球场</string>
+    <string name="riding_desc">时间地点不固定</string>
+    <string name="badminton_desc">周一 6:00 ~ 8:00 藿香路张江实验小学</string>
+    <string name="join">我要加入</string>
+    <string name="member">已有成员</string>
+    <string name="join_after_login">亲，加俱乐部前请先登录</string>
+    <string name="join_club_success">加入俱乐部成功</string>
+    <string name="already_joined_club">已加入该俱乐部</string>
+    <string name="club_member">俱乐部成员</string>
+    <string name="no_member_exist">还没有成员</string>
+
+    <!-- me fragment -->
+    <string name="head_me">我</string>
+    <string name="check_version">检查更新</string>
+    <string name="settings">设置</string>
+    <string name="about">关于</string>
+    <string name="exit">退出</string>
+    <string name="please_login">亲，请登录</string>
+
+    <!-- about activity -->
+    <string name="head_about">关于</string>
+    <string name="about_txt">
+        <br>Copyright: yangyi.xie@freescale.com\n\n</br>
+        <br>Phone: 13701646157\n\n</br>
+        <br>WeiChat: XieYangyi1989\n\n</br>
+        <br>git: https://github.com/xieyangyi\n</br>
+    </string>
+
+    <!-- settings activity -->
+    <string name="head_settings">设置</string>
+    <string name="alarm_sound_off">关闭闹钟声音</string>
+
+    <!-- person_info activity -->
+    <string name="head_person_info">个人信息</string>
+    <string name="info_name">姓名</string>
+    <string name="info_sex">性别</string>
+    <string name="info_male">男</string>
+    <string name="info_female">女</string>
+    <string name="info_email">邮箱</string>
+    <string name="info_coreid">core id</string>
+    <string name="info_signature">个性签名</string>
+    <string name="info_clubs">已加俱乐部</string>
+    <string name="info_title_name">建议使用真实姓名</string>
+    <string name="info_save">保存</string>
+    <string name="male">male</string>
+    <string name="female">female</string>
+
+    <!--activities fragment & activity -->
+    <string name="head_activities">活动</string>
+    <string name="signup">我要参加</string>
+    <string name="signup_after_login">报名活动必须先登录</string>
+    <string name="signup_activity_success">报名活动成功</string>
+    <string name="already_signed_activity">已报名该活动</string>
+    <string name="activity_expired">活动报名已截止</string>
+    <string name="already_oldest">已经是最早的活动</string>
+    <string name="already_latest">已经是最新的活动</string>
+
+    <!--my activity fragment & activity -->
+    <string name="head_my_activity">我的活动</string>
+    <string name="head_my_activity_alarm">设置闹钟</string>
+    <string name="fragment_my_activity_alarm">闹钟：</string>
+    <string name="activity_name">名称</string>
+    <string name="activity_date">日期</string>
+    <string name="activity_time">时间</string>
+    <string name="activity_is_alarm_on">开启闹钟</string>
+</resources>

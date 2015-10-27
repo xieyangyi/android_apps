@@ -1,0 +1,83 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- top text -->
+    <dimen name="activity_top_txt_sz">20dp</dimen>
+    <dimen name="activity_top_txt_padding">10dp</dimen>
+
+    <!-- bottom button -->
+    <dimen name="activity_bottom_btn_text_sz">20dp</dimen>
+    <dimen name="activity_bottom_btn_padding_top">20dp</dimen>
+    <dimen name="activity_bottom_btn_padding_bottom">20dp</dimen>
+    <dimen name="activity_bottom_btn_padding_left">20dp</dimen>
+    <dimen name="activity_bottom_btn_padding_right">20dp</dimen>
+
+    <!-- activity login -->
+    <dimen name="activity_login_textsize">18dp</dimen>
+    <dimen name="activity_login_edtsize">18dp</dimen>
+    <dimen name="activity_login_padding">20dp</dimen>
+
+    <!-- activity register -->
+    <dimen name="activity_reg_textsize">18dp</dimen>
+    <dimen name="activity_reg_edtsize">18dp</dimen>
+    <dimen name="activity_reg_padding">20dp</dimen>
+
+    <!-- activity main -->
+    <dimen name="activity_main_rbtn_padding_top">10dp</dimen>
+
+    <!-- clubs fregment & adapter & activity -->
+    <dimen name="fregment_clubs_padding_top">20dp</dimen>
+    <dimen name="adapter_clubs_title_sz">20dp</dimen>
+    <dimen name="adapter_clubs_desc_sz">14dp</dimen>
+    <dimen name="adapter_clubs_icon_sz">70dp</dimen>
+    <dimen name="adapter_clubs_blank_sz">20dp</dimen>
+    <dimen name="activity_clubs_btntext_sz">20dp</dimen>
+    <dimen name="activity_clubs_padding_left">20dp</dimen>
+    <dimen name="activity_clubs_padding_right">20dp</dimen>
+
+
+    <!-- fragment me -->
+    <dimen name="fregment_me_padding_top">20dp</dimen>
+    <dimen name="fregment_me_padding_bottom">20dp</dimen>
+    <dimen name="fregment_me_padding_left">20dp</dimen>
+    <dimen name="fragment_me_icon_sz">40dp</dimen>
+    <dimen name="fragment_me_text_sz">20dp</dimen>
+
+    <!-- activity person info -->
+    <dimen name="activity_person_info_padding_top">15dp</dimen>
+    <dimen name="activity_person_info_padding_bottom">15dp</dimen>
+    <dimen name="activity_person_info_padding_left">20dp</dimen>
+    <dimen name="activity_person_info_text_sz">20dp</dimen>
+    <dimen name="activity_person_info_text_content_sz">16dp</dimen>
+    <dimen name="activity_person_info_club_content_width">150dp</dimen>
+
+    <!-- activity settings -->
+    <dimen name="settings_alarm_off_text_sz">20dp</dimen>
+
+    <!-- fragment activities -->
+    <dimen name="adapter_activity_title_sz">18dp</dimen>
+    <dimen name="adapter_activity_time_sz">14dp</dimen>
+    <dimen name="adapter_activity_padding_sz">10dp</dimen>
+    <dimen name="adapter_activity_padding_top_sz">10dp</dimen>
+    <dimen name="adapter_activity_divider_sz">10dp</dimen>
+    <dimen name="adapter_activity_icon_sz">70dp</dimen>
+    <dimen name="adapter_activity_blank_sz">10dp</dimen>
+
+    <!-- fragment myActivity -->
+    <dimen name="fragment_my_activity_divider_height">10dp</dimen>
+    <dimen name="adapter_my_activity_alarm_text_sz">18dp</dimen>
+    <dimen name="adapter_my_activity_alarm_margin_top">6dp</dimen>
+    <dimen name="adapter_my_activity_alarm_margin_left">6dp</dimen>
+    <dimen name="activity_my_activity_divider_height">10dp</dimen>
+
+    <!-- activity alarm -->
+    <dimen name="activity_alarm_text_sz">20dp</dimen>
+
+    <!-- activity settings -->
+    <dimen name="activity_settings_padding_top">20dp</dimen>
+    <dimen name="activity_settings_padding_bottom">20dp</dimen>
+    <dimen name="activity_settings_padding_left">20dp</dimen>
+    <dimen name="activity_settings_text_sz">20dp</dimen>
+</resources>

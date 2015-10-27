@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--<ImageView-->
+        <!--android:id="@+id/adapter_activity_icon"-->
+        <!--android:scaleType="fitCenter"-->
+        <!--android:adjustViewBounds="true"-->
+        <!--android:layout_width="@dimen/adapter_clubs_icon_sz"-->
+        <!--android:layout_height="@dimen/adapter_clubs_icon_sz" />-->
+    <LinearLayout
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/adapter_activity_padding_sz"
+        android:paddingRight="@dimen/adapter_activity_padding_sz"
+        android:paddingTop="@dimen/adapter_activity_padding_top_sz"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/adapter_my_activity_name"
+            android:textSize="@dimen/adapter_activity_title_sz"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/adapter_my_activity_time"
+                android:textSize="@dimen/adapter_activity_time_sz"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="     "
+                android:textSize="@dimen/adapter_activity_time_sz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/adapter_my_activity_address"
+                android:textSize="@dimen/adapter_activity_time_sz"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="@string/fragment_my_activity_alarm"
+                android:textSize="@dimen/adapter_activity_time_sz"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/adapter_my_activity_alarm_date"
+                android:textSize="@dimen/adapter_activity_time_sz"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="     "
+                android:textSize="@dimen/adapter_activity_time_sz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/adapter_my_activity_alarm_time"
+                android:textSize="@dimen/adapter_activity_time_sz"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/adapter_my_activity_alarm_is_on"
+                android:textSize="@dimen/adapter_activity_time_sz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

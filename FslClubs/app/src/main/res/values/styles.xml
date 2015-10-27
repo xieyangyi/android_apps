@@ -1,0 +1,113 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    </style>
+
+    <!-- top textview -->
+    <style name="top_text">
+        <item name="android:textSize">@dimen/activity_top_txt_sz</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingTop">@dimen/activity_top_txt_padding</item>
+        <item name="android:paddingBottom">@dimen/activity_top_txt_padding</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- bottom button -->
+    <style name="bottom_btn_layout">
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">@dimen/activity_bottom_btn_padding_top</item>
+        <item name="android:paddingBottom">@dimen/activity_bottom_btn_padding_bottom</item>
+        <item name="android:paddingLeft">@dimen/activity_bottom_btn_padding_left</item>
+        <item name="android:paddingRight">@dimen/activity_bottom_btn_padding_right</item>
+    </style>
+
+    <style name="bottom_btn">
+        <item name="android:textSize">@dimen/activity_bottom_btn_text_sz</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <!-- activity main -->
+    <style name="activity_main_tab">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:textColor">@drawable/main_tab_textcolor_selector</item>
+        <item name="android:button">@null</item>
+    </style>
+
+    <!-- fragment me -->
+    <style name="fragment_me_layout">
+        <item name="android:paddingTop">@dimen/fregment_me_padding_top</item>
+        <item name="android:paddingBottom">@dimen/fregment_me_padding_bottom</item>
+        <item name="android:paddingLeft">@dimen/fregment_me_padding_left</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="fragment_me_icon">
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:layout_width">@dimen/fragment_me_icon_sz</item>
+        <item name="android:layout_height">@dimen/fragment_me_icon_sz</item>
+    </style>
+
+    <style name="fragment_me_text">
+        <item name="android:paddingLeft">@dimen/fregment_me_padding_left</item>
+        <item name="android:textSize">@dimen/fragment_me_text_sz</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!--activity persion info -->
+    <style name="activity_person_info_layout">
+        <item name="android:paddingTop">@dimen/activity_person_info_padding_top</item>
+        <item name="android:paddingBottom">@dimen/activity_person_info_padding_bottom</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="activity_person_info_text">
+        <item name="android:textSize">@dimen/activity_person_info_text_sz</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="activity_person_info_text_content">
+        <item name="android:textSize">@dimen/activity_person_info_text_content_sz</item>
+        <item name="android:textColor">@color/material_grey_600</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+
+    <!-- activity settings -->
+    <style name="activity_settings_checkbox">
+        <item name="android:paddingTop">@dimen/activity_settings_padding_top</item>
+        <item name="android:paddingBottom">@dimen/activity_settings_padding_bottom</item>
+        <item name="android:paddingLeft">@dimen/activity_settings_padding_left</item>
+        <item name="android:paddingRight">@dimen/activity_settings_padding_left</item>
+        <item name="android:textSize">@dimen/settings_alarm_off_text_sz</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+
+</resources>
