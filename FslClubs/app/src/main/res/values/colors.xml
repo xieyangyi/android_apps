@@ -4,4 +4,11 @@
     <color name="red">#FF0000</color>
     <color name="white">#FFFFFF</color>
     <color name="black">#000000</color>
+    <color name="grey">#BEBFC3</color>
+    <color name="background_tab_pressed">#00FF00</color>
+    <color name="actionbar_tab_selected">#000000</color>
+    <color name="actionbar_tab_unselected">#BEBFC3</color>
+    <color name="background_rbtn">#fff0f0f0</color>
+    <color name="transparent">#00000000</color>
+    <color name="left_view_background">#ffcce8cf</color>
 </resources>

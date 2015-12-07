@@ -6,12 +6,15 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
 import com.fsl.fslclubs.R;
+import com.fsl.fslclubs.util.HttpUtil;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -30,6 +33,7 @@ public class RegisterActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
+        getActionBar().setDisplayHomeAsUpEnabled(true);     // set action bar navigation
         btnRegister = (Button)findViewById(R.id.btn_reg_submmit);
         edtPhoneNo = (EditText)findViewById(R.id.edt_reg_phone);
         edtPassword = (EditText)findViewById(R.id.edt_reg_password);
@@ -133,5 +137,20 @@ public class RegisterActivity extends Activity {
             startActivity(intent);
         }
 
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                finish();
+                return true;
+        }
+        return super.onOptionsItemSelected(item);
     }
 }

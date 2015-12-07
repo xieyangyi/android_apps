@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true" android:drawable="@drawable/rbtn_me_pressedl"></item>
+    <item android:state_checked="false" android:drawable="@drawable/rbtn_me_not_pressedl"></item>
+</selector>

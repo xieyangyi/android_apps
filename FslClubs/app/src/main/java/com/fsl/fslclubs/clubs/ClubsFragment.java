@@ -4,7 +4,6 @@ import android.app.Activity;
 import android.app.Fragment;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,6 +13,7 @@ import android.widget.SimpleAdapter;
 
 import com.fsl.fslclubs.R;
 import com.fsl.fslclubs.main.MainActivity;
+import com.fsl.fslclubs.util.SlidingLayout;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -27,13 +27,15 @@ public class ClubsFragment extends Fragment {
     private ListView listView;
     private SimpleAdapter adapter;
     private Activity parentActivity;
+    private SlidingLayout slidingLayout;
 
-    @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_clubs, null);
         listView = (ListView)view.findViewById(R.id.fragment_clubs_list);
         listView.setAdapter(adapter);
+        slidingLayout = (SlidingLayout) getActivity().findViewById(R.id.sliding_layout);
+        slidingLayout.setScrollEvent(listView);
 
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override

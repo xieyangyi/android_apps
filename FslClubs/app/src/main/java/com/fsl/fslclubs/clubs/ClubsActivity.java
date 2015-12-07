@@ -4,16 +4,17 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Button;
-import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.fsl.fslclubs.R;
-import com.fsl.fslclubs.login.HttpUtil;
+import com.fsl.fslclubs.util.HttpUtil;
 import com.fsl.fslclubs.login.LoginActivity;
 import com.fsl.fslclubs.login.User;
 import com.fsl.fslclubs.main.MainActivity;
@@ -33,6 +34,7 @@ public class ClubsActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_clubs);
+        getActionBar().setDisplayHomeAsUpEnabled(true);     // set action bar navigation
         webView = (WebView)findViewById(R.id.webV_activity_clubs);
         btnClubJoin = (Button)findViewById(R.id.btn_activity_clubs_join);
         btnClubMember = (Button)findViewById(R.id.btn_activity_clubs_member);
@@ -187,6 +189,8 @@ public class ClubsActivity extends Activity {
         settings.setBuiltInZoomControls(true);
         settings.setUseWideViewPort(true);
         settings.setDisplayZoomControls(false);
+        // scrollbar
+        webview.setVerticalScrollBarEnabled(false);
 
         // load the html in the apk
         webview.loadUrl("file:///android_asset/" + website);
@@ -199,5 +203,20 @@ public class ClubsActivity extends Activity {
         });
 
         return true;
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                finish();
+                return true;
+        }
+        return super.onOptionsItemSelected(item);
     }
 }

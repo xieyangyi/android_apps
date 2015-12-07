@@ -5,33 +5,77 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <FrameLayout
-        android:id="@+id/main_content"
-        android:layout_weight="1"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
-    <RadioGroup
-        android:id="@+id/main_radio_group"
+    <com.fsl.fslclubs.util.SlidingLayout
+        android:id="@+id/sliding_layout"
         android:orientation="horizontal"
-        android:paddingTop="@dimen/activity_main_rbtn_padding_top"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-        <RadioButton
-            android:id="@+id/main_rbtn_activities"
-            style="@style/activity_main_tab"
-            android:text="@string/activities"/>
-        <RadioButton
-            android:id="@+id/main_rbtn_friends"
-            style="@style/activity_main_tab"
-            android:text="@string/my_activity"/>
-        <RadioButton
-            android:id="@+id/main_rbtn_clubs"
-            style="@style/activity_main_tab"
-            android:text="@string/clubs"/>
-        <RadioButton
-            android:id="@+id/main_rbtn_me"
-            style="@style/activity_main_tab"
-            android:text="@string/me"/>
-    </RadioGroup>
+        android:layout_height="match_parent">
 
+        <!-- left layout view -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <FrameLayout
+                android:id="@+id/main_person_info"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+
+        <!-- right layout view -->
+        <LinearLayout
+            android:id="@+id/right_main"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <FrameLayout
+                android:id="@+id/main_content"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:background="@color/grey"
+                android:layout_width="match_parent"
+                android:layout_height="2dp" />
+
+            <RadioGroup
+                android:id="@+id/main_radio_group"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/activity_main_rbtn_padding_top"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:id="@+id/main_rbtn_activities"
+                    style="@style/activity_main_tab"
+                    android:drawableTop="@drawable/rbtn_events_selector"
+                    android:text="@string/activities"/>
+                <RadioButton
+                    android:id="@+id/main_rbtn_friends"
+                    style="@style/activity_main_tab"
+                    android:drawableTop="@drawable/rbtn_friends_selector"
+                    android:text="@string/my_activity"/>
+                <RadioButton
+                    android:id="@+id/main_rbtn_clubs"
+                    style="@style/activity_main_tab"
+                    android:drawableTop="@drawable/rbtn_clubs_selector"
+                    android:text="@string/clubs"/>
+                <RadioButton
+                    android:id="@+id/main_rbtn_me"
+                    style="@style/activity_main_tab"
+                    android:drawableTop="@drawable/rbtn_me_selector"
+                    android:text="@string/me"/>
+            </RadioGroup>
+        </LinearLayout>
+    </com.fsl.fslclubs.util.SlidingLayout>
+
+
+        <!--<android.support.v4.view.ViewPager-->
+            <!--android:id="@+id/activity_main_viewPager"-->
+            <!--android:layout_above="@+id/main_radio_group"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content" />-->
 </LinearLayout>

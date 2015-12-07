@@ -3,17 +3,10 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <RelativeLayout
-        android:background="@color/green"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-        <TextView
-            android:text="@string/head_clubs"
-            style="@style/top_text" />
-    </RelativeLayout>
 
     <ListView
         android:paddingTop="@dimen/fregment_clubs_padding_top"
+        android:paddingLeft="@dimen/fregment_clubs_padding_left"
         android:id="@+id/fragment_clubs_list"
         android:layout_width="match_parent"
         android:layout_height="match_parent">

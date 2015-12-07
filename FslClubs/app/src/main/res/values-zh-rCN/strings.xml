@@ -2,6 +2,7 @@
 <resources>
     <string name="app_name">飞思卡尔俱乐部</string>
     <string name="action_settings">设置</string>
+    <string name="action_search">搜索</string>
 
     <string name="cancel">取消</string>
     <string name="ok">确定</string>
@@ -80,8 +81,15 @@
         <br>git: https://github.com/xieyangyi\n</br>
     </string>
 
+    <!-- check version update -->
+    <string name="softwear_update">检测到新版本</string>
+    <string name="softwear_update_message">下载最新版本</string>
+    <string name="downloading">正在下载</string>
+    <string name="softwear_update_no_need">已经是最新的了</string>
+
     <!-- settings activity -->
     <string name="head_settings">设置</string>
+    <string name="alarm_settings">闹钟设置</string>
     <string name="alarm_sound_off">关闭闹钟声音</string>
 
     <!-- person_info activity -->
@@ -117,4 +125,17 @@
     <string name="activity_date">日期</string>
     <string name="activity_time">时间</string>
     <string name="activity_is_alarm_on">开启闹钟</string>
+
+    <!--listview pull refresh -->
+    <string name="listview_pull_to_refresh">下拉可以刷新</string>
+    <string name="listview_update_at">上次更新于</string>
+    <string name="listview_release_to_refresh">释放立即刷新</string>
+    <string name="listview_refreshing">正在刷新……</string>
+    <string name="listview_not_updated_yet">暂未更新</string>
+    <string name="listview_updated_just_now">刚刚更新</string>
+    <string name="listivew_time_error">时间有误</string>
+
+    <!-- activity search result -->
+    <string name="search_result">搜索结果</string>
+    <string name="search_hint">搜索</string>
 </resources>

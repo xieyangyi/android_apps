@@ -2,7 +2,6 @@ package com.fsl.fslclubs.login;
 
 import android.app.Activity;
 import android.app.AlertDialog;
-import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -14,6 +13,7 @@ import android.widget.EditText;
 
 import com.fsl.fslclubs.main.MainActivity;
 import com.fsl.fslclubs.R;
+import com.fsl.fslclubs.util.HttpUtil;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -33,6 +33,7 @@ public class LoginActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+        getActionBar().setDisplayHomeAsUpEnabled(true);
         edtPhoneNo = (EditText)findViewById(R.id.edt_phone);
         edtPassword = (EditText)findViewById(R.id.edt_password);
         btnSubmmit = (Button)findViewById(R.id.btn_submmit);
@@ -149,4 +150,18 @@ public class LoginActivity extends Activity {
         loggedInUser = user;
     }
 
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                finish();
+                return true;
+        }
+        return super.onOptionsItemSelected(item);
+    }
 }

@@ -3,8 +3,8 @@ package com.fsl.fslclubs.me;
 import android.app.Fragment;
 import android.content.Intent;
 import android.media.audiofx.BassBoost;
+import android.net.Uri;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -32,18 +32,17 @@ public class MeFragment extends Fragment {
         super.onCreate(savedInstanceState);
     }
 
-    @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_me, null);
-        txtMe = (TextView)view.findViewById(R.id.txt_fragment_me_me);
+//        txtMe = (TextView)view.findViewById(R.id.txt_fragment_me_me);
         txtSettings = (TextView)view.findViewById(R.id.txt_fragment_me_settings);
         txtCheckVersion = (TextView)view.findViewById(R.id.txt_fragment_me_version);
         txtAbout = (TextView)view.findViewById(R.id.txt_fragment_me_about);
-        txtExit = (TextView)view.findViewById(R.id.txt_fragment_me_exit);
+//        txtExit = (TextView)view.findViewById(R.id.txt_fragment_me_exit);
 
         // text me
-        setTextMe();
+//        setTextMe();
 
         // text settings
         setTextSettings();
@@ -55,7 +54,7 @@ public class MeFragment extends Fragment {
         setTextAbout();
 
         // text exit
-        setTextExit();
+//        setTextExit();
 
         return view;
     }
@@ -98,7 +97,8 @@ public class MeFragment extends Fragment {
         txtCheckVersion.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // todo
+                UpdateManager manager = new UpdateManager(getActivity());
+                manager.checkUpdate();
             }
         });
     }
@@ -122,4 +122,5 @@ public class MeFragment extends Fragment {
             }
         });
     }
+
 }

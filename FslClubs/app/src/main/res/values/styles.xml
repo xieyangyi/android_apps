@@ -1,7 +1,42 @@
-<resources>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/actionBar</item>
+        <item name="android:itemBackground">@drawable/actionbar_bg_selector</item>
+        <item name="android:actionBarItemBackground">@drawable/actionbar_bg_selector</item>
+        <item name="android:itemTextAppearance">@style/overflowTextStyle</item>
+        <item name="android:actionOverflowButtonStyle">@style/overflowButton</item>
+        <item name="android:actionBarTabTextStyle">@style/tabTextStyle</item>
+        <item name="android:actionBarTabStyle">@style/tabStyle</item>
+    </style>
+
+    <style name="actionBar" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:background">#303537</item>
+        <item name="android:titleTextStyle">@style/titleTextStyle</item>
+    </style>
+
+    <style name="titleTextStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">#cfcfcf</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="overflowTextStyle" parent="@android:style/Widget.ActionButton.Overflow">
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="overflowButton" parent="android:style/Widget.Holo.ActionButton.Overflow">
+        <!--<item name="android:src">@drawable/actionbar_more_icon</item>-->
+    </style>
+
+    <style name="tabTextStyle" parent="@android:style/Widget.Holo.ActionBar.TabText">
+        <item name="android:textColor">@drawable/actionbar_tab_textcolor_selector</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="tabStyle" parent="@android:style/Widget.Holo.ActionBar.TabView">
+        <item name="android:paddingLeft">40dp</item>
+        <item name="android:paddingRight">40dp</item>
     </style>
 
     <!-- top textview -->
@@ -19,18 +54,16 @@
     <!-- bottom button -->
     <style name="bottom_btn_layout">
         <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:background">@color/actionbar_tab_unselected</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:paddingTop">@dimen/activity_bottom_btn_padding_top</item>
-        <item name="android:paddingBottom">@dimen/activity_bottom_btn_padding_bottom</item>
-        <item name="android:paddingLeft">@dimen/activity_bottom_btn_padding_left</item>
-        <item name="android:paddingRight">@dimen/activity_bottom_btn_padding_right</item>
     </style>
 
     <style name="bottom_btn">
         <item name="android:textSize">@dimen/activity_bottom_btn_text_sz</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/transparent</item>
     </style>
 
     <!-- activity main -->
@@ -39,9 +72,9 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_weight">1</item>
         <item name="android:gravity">center</item>
-        <item name="android:textSize">20dp</item>
-        <item name="android:paddingTop">4dp</item>
-        <item name="android:paddingBottom">4dp</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:paddingBottom">0dp</item>
         <item name="android:textColor">@drawable/main_tab_textcolor_selector</item>
         <item name="android:button">@null</item>
     </style>
@@ -90,7 +123,7 @@
     </style>
     <style name="activity_person_info_text_content">
         <item name="android:textSize">@dimen/activity_person_info_text_content_sz</item>
-        <item name="android:textColor">@color/material_grey_600</item>
+        <item name="android:textColor">@color/black</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_alignParentRight">true</item>

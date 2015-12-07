@@ -5,14 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <RelativeLayout
-        android:background="@color/green"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-        <TextView
-            android:text="@string/login"
-            style="@style/top_text" />
-    </RelativeLayout>
+    <!--<RelativeLayout-->
+        <!--android:background="@color/green"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+        <!--<TextView-->
+            <!--android:text="@string/login"-->
+            <!--style="@style/top_text" />-->
+    <!--</RelativeLayout>-->
 
     <LinearLayout
         android:orientation="vertical"

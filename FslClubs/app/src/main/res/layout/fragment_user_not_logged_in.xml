@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout
+        android:background="@color/left_view_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- bottom button -->
+        <LinearLayout
+            style="@style/bottom_btn_layout">
+            <Button
+                android:id="@+id/btn_login"
+                android:text="@string/please_login"
+                style="@style/bottom_btn"/>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

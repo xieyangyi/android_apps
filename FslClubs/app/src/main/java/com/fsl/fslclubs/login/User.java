@@ -3,14 +3,13 @@ package com.fsl.fslclubs.login;
 import android.content.ContentUris;
 import android.content.ContentValues;
 import android.content.Context;
-import android.content.Intent;
-import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.net.Uri;
 import android.util.Log;
 import android.widget.Toast;
 
 import com.fsl.fslclubs.R;
+import com.fsl.fslclubs.util.HttpUtil;
 
 import java.util.HashMap;
 import java.util.Map;

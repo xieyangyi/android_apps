@@ -6,16 +6,17 @@
     <LinearLayout
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
-        android:paddingTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <WebView
             android:id="@+id/webV_activity_activities"
+            android:background="@color/transparent"
             android:layout_width="match_parent"
             android:layout_height="470dp" />
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/activity_activities_button"
         style="@style/bottom_btn_layout">
         <Button
             android:id="@+id/btn_activity_activities_signup"

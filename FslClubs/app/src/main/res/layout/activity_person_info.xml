@@ -7,15 +7,6 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-        <!-- top title -->
-        <RelativeLayout
-            android:background="@color/green"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-            <TextView
-                android:text="@string/head_person_info"
-                style="@style/top_text" />
-        </RelativeLayout>
 
         <!-- content -->
         <LinearLayout
@@ -90,7 +81,7 @@
                 <TextView
                     android:id="@+id/txt_activity_info_signature"
                     android:textSize="@dimen/activity_person_info_text_content_sz"
-                    android:textColor="@color/material_grey_600"
+                    android:textColor="@color/black"
                     android:singleLine="false"
                     android:gravity="end"
                     android:layout_alignParentRight="true"
@@ -106,7 +97,7 @@
                 <TextView
                     android:id="@+id/txt_activity_info_clubs"
                     android:textSize="@dimen/activity_person_info_text_content_sz"
-                    android:textColor="@color/material_grey_600"
+                    android:textColor="@color/black"
                     android:singleLine="false"
                     android:gravity="end"
                     android:layout_alignParentRight="true"

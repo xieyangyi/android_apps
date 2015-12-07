@@ -9,15 +9,6 @@ android:layout_height="match_parent">
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <RelativeLayout
-            android:background="@color/green"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-            <TextView
-                android:text="@string/head_my_activity_alarm"
-                style="@style/top_text" />
-        </RelativeLayout>
-
         <ListView
             android:id="@+id/list_my_activity_alarm"
             android:dividerHeight="@dimen/activity_my_activity_divider_height"
